@@ -1,5 +1,5 @@
 import React from 'react'
-// import empinfo from '../models/empinfo'
+import empinfo from '../models/empinfo'
 
 function EmployeeListitem({employee}) {
   return (

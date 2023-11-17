@@ -7,8 +7,10 @@ function Header(props) {
       border: "solid 2px black",
       borderRadius: "20px",
       marginBottom: "5px",
-      bordercolor:'blue'
-    }}className='box'> {props.txt}</div>
+      bordercolor:'blue',
+      width: '500px',
+      textAlign: 'center',
+    }}className='box'> <h3>{props.txt}</h3></div>
   ) 
 }
 
