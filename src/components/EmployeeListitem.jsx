@@ -10,7 +10,7 @@ function EmployeeListitem({employee}) {
       style={{
         display: "flex",
         border: "solid 2px black",
-        borderRadius: "20px",
+        // borderRadius: "20px",
         marginBottom: "5px",
         borderColor: 'red'
       }}

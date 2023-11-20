@@ -7,7 +7,6 @@ function Employeelist() {
     <div style={{
     
       border: "solid 2px black",
-      borderRadius: "10px",
       marginBottom: "5px",
       borderColor: 'purple'
     }}>
@@ -15,12 +14,6 @@ function Employeelist() {
     {empinfo.map((employee,index) => (
       <EmployeeListitem key={index} employee={employee}/>
     ))}
-
-
-
-         {/* {props.map((employee, index) => (
-        <EmployeeListitem key={index} employee={employee} />
-      ))} */}
 
     </div>
   );

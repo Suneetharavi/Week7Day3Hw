@@ -11,7 +11,7 @@ function Homepage(props) {
           <div className='headerclass' style={{
        
         border: "solid 2px black",
-        borderRadius: "20px",
+        // borderRadius: "20px",
         marginBottom: "5px",
         borderColor: 'orange',
         height: '1000 px'

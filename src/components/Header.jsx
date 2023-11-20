@@ -5,7 +5,7 @@ function Header(props) {
     <div style={{
       display: "flex",
       border: "solid 2px black",
-      borderRadius: "20px",
+      // borderRadius: "20px",
       marginBottom: "5px",
       bordercolor:'blue',
       width: '500px',

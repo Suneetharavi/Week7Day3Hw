@@ -8,7 +8,7 @@
     /* justify-content: space-evenly; */
 
       display: flex;
-      border: solid 2px black;
+      border: solid 2px rgb(19, 19, 19);
       border-radius: "10px";
       margin-bottom: "1px";
       width: "50%";

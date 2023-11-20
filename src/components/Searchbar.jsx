@@ -6,7 +6,7 @@ function Searchbar() {
     <div style={{
       display: "flex",
       border: "solid 2px black",
-      borderRadius: "10px",
+      // borderRadius: "10px",
       marginBottom: "5px",
       borderColor: 'green'
     }}>

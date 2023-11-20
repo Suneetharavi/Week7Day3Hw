@@ -10,7 +10,7 @@ function Employeepage(props) {
     <div style={{
       
       border: "solid 2px black",
-      borderRadius: "10px",
+      // borderRadius: "10px",
       marginBottom: "5px",
       height:'1000px',
       width: '520px',
@@ -28,12 +28,14 @@ function Employeepage(props) {
         padding: "10px",
       }}
     >
-      <div>
-        <EmployeeListitem employee={empinfo[0]} />
+      <div style={{
+          border: "solid 1px black",  
+        }}>
+        <EmployeeListitem employee={empinfo[1]} />
       </div>
       <div
         style={{
-          borderBottom: "solid 1px black",
+          border: "solid 1px black",
           padding: "10px",
         }}
       >
@@ -42,7 +44,7 @@ function Employeepage(props) {
       </div>
       <div
         style={{
-          borderBottom: "solid 1px black",
+          border: "solid 1px black",
           padding: "10px",
         }}
       >
@@ -51,13 +53,17 @@ function Employeepage(props) {
       </div>
       <div
         style={{
-          borderBottom: "solid 1px black",  
+          border: "solid 1px black",
+          padding: "10px",  
         }}
       >
         <h5>SMS</h5>
         <h6>617 000 0002</h6>
       </div>
-      <div>
+      <div style={{
+          border: "solid 1px black",
+          padding: "10px" 
+        }}>
         <h5>Email</h5>
         <h6>fghdg@gmail.com</h6>
       </div>
